@@ -1,0 +1,134 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Sans-Serif Product Sans",Roboto,RobotoDraft,Arial,sans-serif;;
+}
+
+.container{
+    padding: 8px;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.logo > button {
+    font-size: 20px;
+    font: 25px "Sans-Serif Product Sans",Roboto,RobotoDraft,Arial,sans-serif;
+    font-weight: 500;
+}
+
+.logo > img{
+    width: 81px;
+    height: 27px;
+    margin-right: -5px     ;
+}
+
+.logo > #podcast{
+    color: #5f6368;
+    font-size: 22px;
+    background-color: transparent;
+    border: none;
+}
+
+.logo > #podcast:hover{
+    text-decoration: underline;
+}
+.search{
+    display: flex;
+    flex-direction: row;
+    background-color: #F1F3F4;
+    border-radius: 8px;
+    margin-left: -120px;
+}
+
+.searchOn{
+    display: flex;
+    flex-direction: row;
+    background-color: #FFF;
+    box-shadow: 1px 1px 2px #5f6368;
+    border-radius: 8px;
+    border: none;
+    margin-left: -120px;
+}
+
+#searchButton{
+    padding: 3px;
+    color: #4d5155;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    padding: 10px;
+    outline: none;
+}
+
+button:hover{
+    border-radius: 50px;
+    background-color: #ebebeb;
+    cursor: pointer;
+}
+
+
+.inputSearch{
+    min-width: 700px;
+    height: 50px;
+    border: none;
+    background-color: #F1F3F4;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 14px;
+    outline: none;
+}
+
+
+.inputSearchOn{
+    min-width: 700px;
+    height: 50px;
+    border: none;
+    background-color: #FFF;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 14px;
+    outline: none;
+}
+
+.profileBar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.profileBar > button{
+    margin-right: 10px;
+}
+
+.profile {
+    width: 100%;
+    height: auto;
+    max-width: 30px;
+    border-radius: 50px;
+}
+
+.profile:hover{
+    border-radius: 50px;
+    background-color: #ebebeb;
+    box-shadow: 0px 0px 4px #808080;
+    cursor: pointer;
+}
+
+.profileBar > button:focus{
+    background-color: #ebebeb;
+    border-radius: 50px;
+}
